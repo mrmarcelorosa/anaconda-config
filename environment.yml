@@ -5,4 +5,10 @@ channel_priority: strict
 auto_update_conda: false
 allow_conda_downgrades: false
 always_yes: true      # suprime perguntas interativas
+dependencies:
+  - python=3.11
+  - matplotlib
+  - jupyter
+  - numpy
+  - pandas
 
